@@ -1,4 +1,4 @@
-package com.wilkins.resourceserver;
+package com.wilkins.resource.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

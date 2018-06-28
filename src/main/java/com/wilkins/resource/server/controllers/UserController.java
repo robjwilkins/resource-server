@@ -1,6 +1,6 @@
-package com.wilkins.resourceserver.controllers;
+package com.wilkins.resource.server.controllers;
 
-import com.wilkins.resourceserver.repositories.UserRepository;
+import com.wilkins.resource.server.repositories.UserRepository;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import model.User;

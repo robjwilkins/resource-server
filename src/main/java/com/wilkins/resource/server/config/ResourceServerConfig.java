@@ -1,6 +1,6 @@
-package com.wilkins.resourceserver.config;
+package com.wilkins.resource.server.config;
 
-import com.wilkins.resourceserver.properties.ServiceProperties;
+import com.wilkins.resource.server.properties.ServiceProperties;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -26,7 +26,7 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
     @Bean @Primary
     public ResourceServerTokenServices tokenServices() {
         RemoteTokenServices tokenServices = new RemoteTokenServices();
-        tokenServices.setCheckTokenEndpointUrl("http://localhost:8080/oauth/check_token");
+        tokenServices.setCheckTokenEndpointUrl(serviceProperties.getCheckTokenEndpointUrl());
         tokenServices.setClientId(serviceProperties.getClientId());
         tokenServices.setClientSecret(serviceProperties.getClientSecret());
         return tokenServices;

@@ -1,4 +1,4 @@
-package com.wilkins.resourceserver.properties;
+package com.wilkins.resource.server.properties;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -14,4 +14,5 @@ public class ServiceProperties {
     private String resourceId;
     private String clientId;
     private String clientSecret;
+    private String checkTokenEndpointUrl;
 }

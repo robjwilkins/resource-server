@@ -1,4 +1,4 @@
-package com.wilkins.resourceserver.repositories;
+package com.wilkins.resource.server.repositories;
 
 import model.User;
 import org.springframework.data.mongodb.repository.MongoRepository;

@@ -1,4 +1,4 @@
-package com.wilkins.resourceserver;
+package com.wilkins.resource.server;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
